@@ -1,0 +1,23 @@
+package com.neehait.emptask.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.neehait.emptask.entity.Employee;
+import com.neehait.emptask.repository.EmployeeRepository;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+	
+	@Autowired
+	private EmployeeRepository repository;
+
+	@Override
+	public Employee creteEmployee(Employee emp) {
+		
+		Employee save = repository.save(emp);
+		
+		return save;
+	}
+
+}

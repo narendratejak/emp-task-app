@@ -1,0 +1,11 @@
+package com.neehait.emptask.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.neehait.emptask.entity.Employee;
+
+public interface EmployeeRepository extends JpaRepository<Employee, Integer>{
+	
+	
+
+}

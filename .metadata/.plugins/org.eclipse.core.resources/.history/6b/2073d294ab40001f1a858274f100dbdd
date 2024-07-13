@@ -1,0 +1,13 @@
+package com.neehait.emptask.service;
+
+import com.neehait.emptask.entity.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Override
+	public Employee creteEmployee(Employee emp) {
+		
+		return null;
+	}
+
+}

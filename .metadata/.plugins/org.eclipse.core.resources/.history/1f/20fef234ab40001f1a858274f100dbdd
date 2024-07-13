@@ -1,0 +1,5 @@
+package com.neehait.emptask.service;
+
+public interface EmployeeService {
+
+}

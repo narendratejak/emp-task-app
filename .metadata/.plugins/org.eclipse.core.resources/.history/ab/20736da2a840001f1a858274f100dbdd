@@ -1,0 +1,5 @@
+package com.neehait.emptask.entity;
+
+public class Department {
+
+}
